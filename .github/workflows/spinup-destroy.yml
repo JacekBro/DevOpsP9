@@ -14,7 +14,7 @@ jobs:
   setup-azurE-resources:
     runs-on: ubuntu-latest
     
-    if: contains(github.event.pull_request.labels.*.name, 'spin up environmnet')
+    if: contains(github.event.pull_request.labels.*.name, 'spin up environment')
     
     steps:
       - name: Checkout repository
