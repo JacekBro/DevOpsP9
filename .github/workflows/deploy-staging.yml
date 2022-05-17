@@ -39,8 +39,8 @@ jobs:
       - name: Download built artifact
         uses: actions/download-artifact@v2
         with:
-          repo-token: ${{secrets.GITHUB_TOKEN}}
-          image-name: ${{env.DOCKER_IMAGE_NAME}}
+          name: webpack artifacts
+          path: public
           
       - name: create image and store in Packages
         uses: mattdavis0351/actions/docker-gpr@1.3.0
