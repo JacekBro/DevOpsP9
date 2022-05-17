@@ -2,7 +2,7 @@ name: Stage the app
 
 env:
   DOCKER_IMAGE_NAME: jacekbro-azure-ttt
-  IMAGE_REGISTRY_URL: docker.pkg.github.com
+  IMAGE_REGISTRY_URL: ghcr.io
   AZURE_WEBAPP_NAME: test-ttt-app
   
 on:
