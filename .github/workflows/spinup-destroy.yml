@@ -11,7 +11,7 @@ env:
   AZURE_WEBAPP_NAME: test-ttt-app
 
 jobs:
-  setup-azurE-resources:
+  setup-azure-resources:
     runs-on: ubuntu-latest
     
     if: contains(github.event.pull_request.labels.*.name, 'spin up environmnet')
